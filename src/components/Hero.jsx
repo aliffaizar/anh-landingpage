@@ -20,8 +20,9 @@ const Hero = () => {
           <a
             className="bg-green-600 text-white uppercase px-6 py-2 rounded-md mt-3 font-semibold inline-block"
             href="https://wa.me/628122222411?text=hello..."
+            target="_blank"
           >
-            ConContact
+            Contact
           </a>
         </div>
       </div>

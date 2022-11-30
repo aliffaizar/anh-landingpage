@@ -13,7 +13,7 @@ const About = () => {
               <h1 className="text-center text-3xl font-bold uppercase text-gray-600 mb-5">
                 About Us
               </h1>
-              <p className="text-base">
+              <p className="text-lg">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Ducimus in maxime dolor necessitatibus accusantium dignissimos
                 minus, at dolorem modi unde ut quidem amet impedit sint eos eius

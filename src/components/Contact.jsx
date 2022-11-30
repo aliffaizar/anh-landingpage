@@ -1,10 +1,4 @@
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaMapMarkedAlt,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaLinkedin, FaMapMarkedAlt, FaWhatsapp } from "react-icons/fa";
 import { GoMailRead } from "react-icons/go";
 import { MdContactPhone } from "react-icons/md";
 
@@ -38,23 +32,27 @@ const Contact = () => {
                   <p>+62 8521-1134-765</p>
                 </div>
                 <div className="w-full text-gray-300 flex gap-5 items-center justify-center mt-7">
-                  <a>
-                    <FaInstagram className="w-6 h-6" />
+                  <a
+                    href="https://wa.me/628122222411"
+                    target="_blank"
+                    className="hover:text-green-500"
+                  >
+                    <FaWhatsapp className="w-6 h-6" />
                   </a>
-                  <a>
-                    <FaTwitter className="w-6 h-6" />
-                  </a>
-                  <a>
+                  <a
+                    href="https://www.linkedin.com/company/pt-bumi-merdeka-selatan/"
+                    target="_blank"
+                    className="hover:text-green-500"
+                  >
                     <FaLinkedin className="w-6 h-6" />
-                  </a>
-                  <a>
-                    <FaFacebook className="w-6 h-6" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="bg-white shadow-md shadow-gray-200 p-5 lg:ml-48 lg:pl-48 rounded">
-              <h3 className="text-center text-2xl">Send Message</h3>
+              <h3 className="text-center text-2xl text-gray-600 font-semibold">
+                Send Message
+              </h3>
               <form className="space-y-5 p-5 mb-5">
                 <input
                   className="w-full outline outline-1 outline-gray-400 focus:outline-green-500 rounded px-3 py-1"

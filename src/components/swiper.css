@@ -2,7 +2,7 @@
 
 @layer components{
   .swiper{
-    @apply w-full lg:max-w-3xl py-10 px-5
+    @apply w-full lg:max-w-4xl py-10 px-5
   }
   
 }
